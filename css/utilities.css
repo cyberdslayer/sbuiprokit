@@ -1,0 +1,105 @@
+.flex{
+    display: flex;
+    /* justify-content: space-between;   */
+    align-items: center;     
+    height: 100%;
+}
+
+
+.card {
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 10px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 auto;
+    justify-content: center;
+}
+
+
+button{
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 16px;
+}
+/* ========================shape divider */
+.custom-shape-divider-top-1647120614 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1647120614 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 13px;
+}
+
+.custom-shape-divider-top-1647120614 .shape-fill {
+    fill: rgb(61, 107, 207);
+}
+
+
+/*! landingsection  */
+
+
+.custom-shape-divider-top-1647122112 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: 234px;
+}
+
+.custom-shape-divider-top-1647122112 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 56px;
+}
+
+.custom-shape-divider-top-1647122112 .shape-fill {
+    fill: #ffffff;
+}
+
+
+
+/* ! footer divider shape */
+
+.footer-shape {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: 234px;
+}
+
+.footer-shape svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 56px;
+}
+
+.footer-shape .shape-fill {
+    fill: #ffffff;
+}
